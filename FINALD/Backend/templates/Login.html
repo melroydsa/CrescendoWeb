@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crescendo</title>
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="static/Login/Login.css" />
+</head>
+<body>
+  <div class="navbar">
+    <img  class="sjeclogo"
+          src="static/Home/Images/SJEC logo with white letter.png" 
+          alt="SJEC LOGO">
+    <div class = "Rectangle"></div>
+    <img  class= "cresclogo"
+          src="static/Home/Images/CrescendoTrans.png" 
+          alt="">
+  </div>
+  <div class="Lg">
+    <h1>Login</h1>
+  </div>
+  <div class="Squares">
+    <div class="Square1">
+      <img  class="ALogo"
+            src="static/Login/Images/AL.png" alt="">
+      <h1>
+        Admin
+      </h1>
+      <form action="/LoginA" method="post">
+        <input type="text" name="user_id" id="" placeholder="User ID" required>
+        <input type="text" name="Password" id="" placeholder="Password" required>
+        <button class="Submit">
+          Login
+      </button>
+    </form>
+    </div>
+    <div class="Square2">
+      <img  class="MLogo"
+            src="static/Login/Images/ML.png" alt="">
+      <h1>
+        Member
+      </h1>
+      <form action="/LoginS" method="post">
+      <div class = LoginM>
+        <input type="text" name="user_id" id="" placeholder="User ID" required>
+      <input type="text" name="Password" id="" placeholder="Password" required>
+      </div>
+      <button class="Submit1">
+        Login
+    </button>
+  </form>
+      
+    </div>
+
+  </div>
+</body>
+</html>

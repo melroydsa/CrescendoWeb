@@ -1,0 +1,82 @@
+body
+{
+    margin: 0;
+    background-image: linear-gradient(#050322,#220004);
+    width: 100%;
+    height: 100vh;
+}
+.navbar
+{
+    margin: 0;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sjeclogo
+{
+    margin-top: 2.3%;
+    width: 9%;
+    height: 80%;
+}
+.Rectangle
+{
+    position: relative;
+    background: #e91818;
+    margin-left: 1.4%;
+    margin-top: 2%;
+    width: 0.4%;
+    height: 90%;
+    border-radius: 50px;
+}
+.cresclogo
+{
+    margin-left: 1%;
+    height: 120%;
+    width: 11.5%;
+}
+.Titles
+{
+    margin-left: 2%;
+    font-family: Avalon;
+    font-size: 2em;
+    color: #d4d4d4;
+    display: flex;
+}
+.Ev
+{
+    margin-left: 15%;
+}
+.Squares
+{
+    display: flex;
+    top: 0;
+}
+.Date_Sq
+{
+    text-align: center;
+    height: 80px;
+    width: 300px;
+    font-family: Avalon;
+    font-size: 1.4em;
+    margin-left: 2%;
+    border-style: solid;
+    border-color: #e91818;
+    border-radius: 50px;
+    color: #d4d4d4;
+}
+.Event_Sq
+{
+    text-align: center;
+    height: 80px;
+    width: 1150px;
+    font-family: Avalon;
+    font-size: 1.4em;
+    margin-left: 2%;
+    border-style: solid;
+    border-color: #e91818;
+    border-radius: 50px;
+    color: #d4d4d4;
+}
+
